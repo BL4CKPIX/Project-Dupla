@@ -37,10 +37,12 @@ export default function Main(){
                 <S.Linha3></S.Linha3>
                 <S.lorem>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem, eu tincidunt libero velit sit amet velit. Nunc in euismod urna. Duis dapibus, elit eu eleifend tincidunt, nulla ipsum consectetur lorem, quis tempor lorem justo quis nisi. Nam interdum, nisi nec mollis sagittis, enim risus euismod nisi, quis rutrum quam augue id mauris. Pellentesque mattis hendrerit semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vestibulum nisl ante, et ultricies sapien facilisis aliquam.</S.lorem>
             </S.Section2>
+
             <S.Section3>
-                <h4>SUBSCRIBE</h4>
-                <p>Sign up for newsletter</p>
-                imput
+            <S.Sub>SUBSCRIBE</S.Sub>
+                <S.Sing>Sign up for newsletter</S.Sing>
+                <S.Email type="email" name="email" id="email" placeholder="Digite seu email!" />
+                <S.Butao type="button" value="" placeholder="SUBMIT" />
             </S.Section3>
         </S.ContainerMain>
         
