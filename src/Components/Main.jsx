@@ -42,7 +42,7 @@ export default function Main(){
             <S.Sub>SUBSCRIBE</S.Sub>
                 <S.Sing>Sign up for newsletter</S.Sing>
                 <S.Email type="email" name="email" id="email" placeholder="Digite seu email!" />
-                <S.Butao type="button" value="" placeholder="SUBMIT" />
+                <S.Butao>SUBMIT</S.Butao>
             </S.Section3>
         </S.ContainerMain>
         
