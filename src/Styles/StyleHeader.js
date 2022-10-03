@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import BackGround from '../Img/Header/BackGroundHeader.png'
+import Responsivo from '../Img/Header/Responsivo.png'
 
 export const Fundo = styled.div`
     background-image: url(${BackGround});
@@ -8,6 +9,10 @@ export const Fundo = styled.div`
     background-attachment: fixed;
     background-size: 100%;
     height: 100vh;
+    @media (max-width: 768px){
+    background-image:url(${Responsivo});
+
+    }
 `
 
 export const ContainerHome = styled.section`
@@ -23,6 +28,9 @@ export const UlHome = styled.ul`
     width: 45vw;
     list-style: none;
     font-size: 1.5rem;
+    @media(max-width: 768px){
+        display:none;
+    }
     
 
     li{
@@ -40,4 +48,7 @@ export const H1 = styled.h1`
     top: 50%;
     right:40%;
     font-size: 5rem;
+    @media (max-width: 768px){
+        display:none;
+    }
 `

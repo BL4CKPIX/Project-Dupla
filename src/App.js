@@ -22,7 +22,7 @@ export default function App(){
       <GlobalStyle />
       <Header />
       <Main />
-      
+      <Footer/>
     </div>
   )
 

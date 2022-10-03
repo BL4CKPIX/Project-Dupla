@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const ContainerMain = styled.div`
   background-color: #f2f4f1;
-  height: 250vh;
+  height: 260vh;
+  @media(max-width: 768px){
+    
+  }
 `;
 export const Title = styled.div`
   display: flex;
@@ -11,11 +14,20 @@ export const Title = styled.div`
   align-items: center;
   height: 40vh;
   line-height: 10vh;
+  @media (max-width: 768px){
+    font-size:28px;
+    color:#373737;
+
+  }
 
   div {
     background-color: black;
     height: 0.5vh;
     width: 5vw;
+    @media (max-width: 768px){
+      width:10vh;
+    background-color:#373737;
+    }
   }
 `;
 
@@ -23,6 +35,11 @@ export const ContainerFood = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media(max-width: 768px){
+    display:flex;
+    flex-direction:column;
+    
+  }
 `;
 
 export const Caixa = styled.div`
@@ -35,15 +52,29 @@ export const Caixa = styled.div`
   p {
     font-weight: bold;
     font-family: "Caros Soft", sans-serif;
+    @media (max-width: 768px){
+      width: 40vh;
+    }
   }
 `;
 
 export const ImgMain = styled.img`
   width: 25vw;
+  @media (max-width: 768px){
+    width:80%;
+    p{
+      margin-right:15vh;
+    }
+    :hover{
+      transition: ease-in-out 1s;
+   
+    }
+  }
   :hover {
     transition: ease-in-out 0.5s;
     width: 27vw;
   }
+  
 `;
 
 export const Linha = styled.div`
@@ -86,7 +117,7 @@ export const Section3 = styled.section`
   flex-direction: column;
   background-color: #dfe4de;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   border:solid;
   align-items:center;
   justify-content:space-evenly;
