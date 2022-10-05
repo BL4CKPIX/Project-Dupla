@@ -9,8 +9,20 @@ import Twitter from '../Img/Footer/Twitter.png'
 
 export default function StyleFooter() {
   return (
-   <section>
-    
-   </section>
+   <S.sectiontoda>
+    <S.Icones2>
+      <S.Icons><img src={Insta} alt="" /></S.Icons>
+      <S.Icons><img src={Twitter} alt="" /></S.Icons>
+      <S.Icons><img src={Face} alt="" /></S.Icons>
+      <S.Icons><img src={Pinterest} alt="" /></S.Icons>
+    </S.Icones2>
+    <nav>
+      <S.About>
+        <li>ABOUT</li>
+        <li>RECIPES</li>
+        <li>SUBSCRIBE</li>
+      </S.About>
+    </nav>
+   </S.sectiontoda>
   )
 }
