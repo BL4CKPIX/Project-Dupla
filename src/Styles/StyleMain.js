@@ -118,7 +118,6 @@ export const Section3 = styled.section`
   background-color: #dfe4de;
   width: 100%;
   height: 60vh;
-  border:solid;
   align-items:center;
   justify-content:space-evenly;
 `;
