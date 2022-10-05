@@ -65,15 +65,15 @@ export const ImgMain = styled.img`
     p{
       margin-right:15vh;
     }
-    :hover{
+    /* :hover{
       transition: ease-in-out 1s;
    
-    }
+    } */
   }
-  :hover {
+  /* :hover {
     transition: ease-in-out 0.5s;
     width: 27vw;
-  }
+  } */
   
 `;
 
