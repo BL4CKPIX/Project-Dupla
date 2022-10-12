@@ -8,10 +8,10 @@ import Colher from '../Img/Main/ImgColherMain.png'
 export default function Main(){
     return(
         <S.ContainerMain>
-            <S.Title>
-                <h2>LATEST RECIPE</h2>
-                <div></div>
-            </S.Title>
+                <S.Title>
+                    <h2>LATEST RECIPE</h2>
+                    <div></div>
+                </S.Title>
             <S.ContainerFood>
                 <S.Caixa>
                     <S.ImgMain src={Bolo} alt="Torta" />

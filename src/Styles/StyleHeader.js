@@ -20,6 +20,17 @@ export const ContainerHome = styled.section`
     height: 20vh;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 768px){
+        justify-content: flex-end;
+        width: 95%;
+        height: 10vh;
+    }
+`
+
+export const H2Home = styled.h2`
+    @media (max-width: 768px){
+        display: none;
+    }
 `
 
 export const UlHome = styled.ul`
@@ -49,6 +60,15 @@ export const H1 = styled.h1`
     right:40%;
     font-size: 5rem;
     @media (max-width: 768px){
-        display:none;
+        right: 25%;
+        font-size: 3rem;
+    }
+`
+
+export const Menu = styled.img`
+    display: none;
+    width: 9vw;
+    @media (max-width: 768px){
+        display: flex;
     }
 `

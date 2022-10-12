@@ -1,10 +1,12 @@
 import React from "react";
 import * as S from '../Styles/StyleHeader'
+import Menu from '../Img/Header/Menu.png'
 export default function Header(){
     return(
         <S.Fundo>
             <S.ContainerHome>
-                <h2>RC</h2>
+                <S.H2Home>RC</S.H2Home>
+                <S.Menu src={Menu} alt='Menu' />
                 <nav>
                     <S.UlHome>
                         <li>ABOUT</li>
